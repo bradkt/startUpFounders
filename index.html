@@ -6,17 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="media/keyIcon.ico">
 
     <title>Startup Shortcut</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Monofett' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -24,79 +21,49 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/custom-style.css" rel="stylesheet">
   </head>
-<!-- NAVBAR
-================================================== -->
+  <!-- HEADER
+  ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="Bootstrap"><img src="media/logo40.png" alt="startup shortcut logo"</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-				<li><a href="#terms">Terms & Privacy</a></li>
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> commented out button for later use--> 
-              </ul>
-            </div>
-          </div>
+  <div class="container">
+    <header class="site-header" role="banner">
+       <!-- Navbar
+      ================================================== -->
+      <!-- <div class="header clearfix"> -->
+        <a class="navbar-brand glyphicon glyphicon-fire" href="/" id="logo">StartUpShortCut</a>
+        <!-- <a class="navbar-brand" href="/"><img src="media/startup_logo70.png" alt="logo"></a> -->
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">About</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
         </nav>
-
       </div>
-    </div>
 
 
-    <!-- Carousel
-    ================================================== -->
-	<div id="mycarousel" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="item active">
-				<img src="media\bw_table_meeting_900x600.jpg" alt="MainImage" class="img-responsive">
-					<div class="carousel-caption">
-						<h1>StartUp ShortCut</h1>
-						<p>It's Simple, Stand Up People Make the Best Brands. </p>
-						<p><a class="btn btn-lg btn-primary" href="<a href="mailto:bradktracy@gmail.com" role="button">Contact</a></p>
-					</div>
-			</div>
-		</div>
-	</div>
-	<div class="well well-small visible-xs">
-		<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give Us A Call</a>
-	</div><!-- end well-small -->
-	
-    <!-- Marketing messaging and featurettes
+  </header>
+  
+  <div class="jumbotron">
+    <h1>StartUp ShortCut</h1>
+    <p>It's Simple, Stand Up People Make the Best Brands.</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact</a></p>
+  </div>
+
+
+<!-- Display call button on mobile devices -->
+
+  <div class="well well-small visible-xs">
+    <a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give Us A Call</a>
+  </div><!-- end well-small -->
+
+      <!-- Marketing messaging and featurettes
     ================================================== -->
 
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing" style="padding: 40px 0px 60px 0px;">
 
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
+      <div class="row"  id="intro">
         <div class="col-lg-4">
           <img class="img-circle" src="media\chess_horses200.jpg" alt="Chess Horse" style="width: 140px; height: 140px;">
           <h2>The Shortcut</h2>
@@ -116,22 +83,22 @@
           <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>commented out button for later use-->
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
+    </div><!-- container marketing -->
 
+          <!-- START THE FEATURETTES -->
 
-      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider" id="about">
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Shortcut to Profit <span class="text-muted">Becuase Business moves FAST</span></h2>
+      <div class="row featurette" style= "padding-top: 40px" >
+         <div class="col-md-7">
+          <h2 class="featurette-heading">Shortcut to Profit <small id="subtitle">Becuase Business moves FAST</small></h2>
           <p class="lead">Having the right people with the right plan in your corner is the fastest way to get where you want to go.</p>
+         </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive" img src="media\business_moves_fast.jpg" alt="pixie_laptop">
+          </div>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" img src="media\business_moves_fast.jpg" alt="pixie_laptop">
-        </div>
-      </div>
-	  
+    
       <hr class="featurette-divider">
 
       <div class="row featurette">
@@ -139,16 +106,16 @@
           <img class="featurette-image img-responsive" img src="media\stand there book.jpg" alt="pixie_laptop">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Systems Developement <span class="text-muted">Unified "Stortcut Stategy"</span></h2>
+          <h2 class="featurette-heading">Systems Developement <small id="subtitle">Unified "Stortcut Stategy"</small></h2>
           <p class="lead">People will come to Startup Shortcut as an idea, as a phase zero business or a micro business. We'll devolop systems to quickly identify where they fall in the business developement sectrum and deploy our resources from that point forward, no wasted time.</p>
         </div>
       </div>
 
-	  <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Taking to Market. <span class="text-muted">Think "Turbotax of Startups"</span></h2> 
+          <h2 class="featurette-heading">Taking to Market. <small id="subtitle">Think "Turbotax of Startups"</small></h2> 
           <p class="lead">By Devoloping our propipietary systems we'll be able to create a shortcut for entrepreneurs in the form of a fully automated app that will guide them down the road to pitchtown. They will be prepared to wow potenital investors with the latest technology and get the attention and funding that a truely engauged business person deserves. </p>
         </div>
         <div class="col-md-5">
@@ -156,73 +123,31 @@
         </div>
       </div>
       
-      <hr class="featurette-divider">
-
-      <!--  <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">About Us </h2>Because you'll want to know
-          <p class="lead">About Us Description. Who we our, Our Teams experience and where we are located</p>
-        </div>
-       <div class="col-md-5">
-          <h2 class="featurette-heading">Contact Us</h2>
-		  <!-- <form action="action_page.php"> -->
-			<!-- First name:<br><input type="text" name="firstname" value="Mickey"></br>
-			Last name:<br><input type="text" name="lastname" value="Mouse"></br>
-			<textarea name="message" rows="6" cols="20"> What would you like us to know</textarea>
-			<!-- <input type="submit" value="Submit"> -->
-			<!-- </form> -->
-		  <!-- <button type="button" onclick="alert('Thank you for contacting Startup Shotcut, we will be in touch soon!')">Submit!</button>
-        </div> -->
       </div>
-
-      <!-- <hr class="featurette-divider">
-	  
-	  <!-- /END THE FEATURETTES -->
-
-    <div class="alert alert-success alert-block fade in" id="successAlert">
-      <button type="button" class="close" data-dismiss="alert">&times;</button>
-      <h4>Success!<h4></h4>
-      <p>You just made a submittion, Thank You!</p>
     </div>
-	   
-	   <div class="row" id="BigCallOut">
-		<div class="col-12">
-		
-			<div class="well"
-				<div class="page-header">
-					<h1>A Fancy Header <small>  This sub header is awesome!</small></h1>
-					
-					<p class="lead">This is some filler text, so that I can see what the heck this is going to look like.</p>
-					
-					<a href="" class="btn btn-large btn-primary">this is a big Button</a>
-					<a href="" class="btn btn-large btn-link">or we can go check out this</a>
-				
-				</div><!-- end page-header --> 
-			
-			</div><!--end well-->
-		
-		</div><!-- end col-12>
-	   
-	   </div><! -- End BigCallOut -->
-	   
-		
+      <hr class="featurette-divider">
+    
+    <!--END THE FEATURETTES -->
 
+     <div class="row" id="BigCallOut">
+        <div class="col-12">
+    
+      <div class="well">
+        <div class="page-header" id="contact">
+          <h1>Start today! <small id="subtitle">  free initial Evaluation and Consultation</small></h1>
+          <a href="/" class="btn btn-large btn-primary">Setup Call</a>
+      </div><!--end well-->
+      
+      </div><!-- end col-12-->
+    
+      </div><!-- end BigCallOut-->
+     
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    </div><!-- Content Container -->
   </body>
 </html>

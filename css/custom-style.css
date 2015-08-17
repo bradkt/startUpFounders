@@ -2,6 +2,56 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-.alert {
-  margin-top: 20px;
+* {
+	font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+
+.nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#contact {
+	text-align: center;
+}
+
+.jumbotron {
+  background-image: url("../media/bw_table_meeting_900x600.jpg");
+  background-size: cover;
+  color: #ff9b9b;
+  text-align: center;
+  padding-top: 25%;
+  height: 600px;
+  font-weight: bold;
+}
+
+.col-md-7 #subtitle {
+  color: #ff9b9b;
+}
+
+#BigCallOut {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  #intro {
+    text-align: center;
+  }
+  .col-md-5 {
+    text-align: center;
+  }
+
+  .featurette-image {
+    margin: auto;
+  }
+  .col-md-7 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .col-md-5 {
+    display: none;
+  }
 }
